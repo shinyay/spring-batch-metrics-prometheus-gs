@@ -10,6 +10,8 @@ Since version 4.2, Spring Batch provides support for batch monitoring and metric
   - `spring-boot-starter-actuator`
 - io.micrometer
   - `micrometer-registry-prometheus`
+- io.prometheus
+  - `simpleclient_pushgateway`
 ## Demo
 
 ## Features
