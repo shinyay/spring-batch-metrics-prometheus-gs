@@ -4,7 +4,10 @@ Since version 4.2, Spring Batch provides support for batch monitoring and metric
 
 
 ## Description
-
+### Dependency
+- org.springframework.boot
+  - `spring-boot-starter-batch`
+  - `spring-boot-starter-actuator`
 ## Demo
 
 ## Features
