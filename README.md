@@ -1,6 +1,7 @@
-# Name
+# Spring Batch Metrics with Prometheus
 
-Overview
+Since version 4.2, Spring Batch provides support for batch monitoring and metrics based on Micrometer.
+
 
 ## Description
 
@@ -18,6 +19,8 @@ Overview
 ## Installation
 
 ## References
+
+- [Monitoring and metrics](https://docs.spring.io/spring-batch/docs/current/reference/html/monitoring-and-metrics.html)
 
 ## Licence
 
