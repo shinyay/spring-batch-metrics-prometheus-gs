@@ -22,6 +22,13 @@ $ docker run --rm -d -p 9091:9091 prom/pushgateway
 ```
 
 ## Demo
+### Run Spring Batch
+```shell script
+$ ./gradlew clean bootRun
+```
+
+### Display Metrics on Prometheus Gateway
+- [http://localhost:9091](http://localhost:9091)
 
 ## Features
 
