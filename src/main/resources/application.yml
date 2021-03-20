@@ -6,3 +6,4 @@ management:
           enabled: true
           base-url: http://localhost:9091
           push-rate: 30s
+          job: hello-job
