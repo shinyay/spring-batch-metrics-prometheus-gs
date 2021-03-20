@@ -12,6 +12,15 @@ Since version 4.2, Spring Batch provides support for batch monitoring and metric
   - `micrometer-registry-prometheus`
 - io.prometheus
   - `simpleclient_pushgateway`
+
+### Prometheus Gateway
+Use it as Docker
+
+```shell script
+$ docker pull prom/pushgateway
+$ docker run --rm -d -p 9091:9091 prom/pushgateway
+```
+
 ## Demo
 
 ## Features
@@ -28,6 +37,7 @@ Since version 4.2, Spring Batch provides support for batch monitoring and metric
 ## References
 
 - [Monitoring and metrics](https://docs.spring.io/spring-batch/docs/current/reference/html/monitoring-and-metrics.html)
+- [Prometheus Pushgateway](https://github.com/prometheus/pushgateway)
 
 ## Licence
 
