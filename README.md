@@ -30,6 +30,8 @@ $ ./gradlew clean bootRun
 ### Display Metrics on Prometheus Gateway
 - [http://localhost:9091](http://localhost:9091)
 
+![image](https://user-images.githubusercontent.com/3072734/111860209-643a4f80-8989-11eb-9b1e-cb2dc2c6eae3.png)
+
 ## Features
 
 - feature:1
