@@ -1,0 +1,6 @@
+management:
+  metrics:
+    export:
+      prometheus:
+        pushgateway:
+          enabled: true
