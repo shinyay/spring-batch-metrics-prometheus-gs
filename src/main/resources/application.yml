@@ -8,5 +8,5 @@ management:
           push-rate: 30s
           job: hello-job
           grouping-key:
-            app-name: my-batch
+            app_name: my-batch
           shutdown-operation: push
