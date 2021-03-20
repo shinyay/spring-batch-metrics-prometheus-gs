@@ -1,1 +1,18 @@
 # /etc/prometheus/prometheus.yml
+
+global:
+  scrape_interval:     15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+  evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+
+rule_files:
+
+scrape_configs:
+  - job_name: 'pushgateway'
+    scrape_interval: 1m
+    metrics_path: /metrics
+    static_configs:
+      - targets: ['localhost:9091']
