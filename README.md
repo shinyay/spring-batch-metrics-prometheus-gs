@@ -21,6 +21,18 @@ $ docker pull prom/pushgateway
 $ docker run --rm -d -p 9091:9091 prom/pushgateway
 ```
 
+#### Gateway Configuration for Spring
+- management.metrics.export.prometheus.pushgateway
+
+|Property|Description|
+|--------|-----------|
+|base-url|Pushgateway's base URL|
+|enabled|Enable publishing via Prometheus Pushgateway|
+|grouping-key|The metric grouping key for push|
+|job|The job identifier for this application instance|
+|push-rate|The frequency used to push the indicator|
+|shutdown-operation|The action that should be performed at shutdown|
+
 ## Demo
 ### Run Spring Batch
 ```shell script
