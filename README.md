@@ -37,6 +37,8 @@ $ ./gradlew clean bootRun
 ### Display Metrics on Prometheus
 - [http://localhost:9090](http://localhost:9090)
 
+![image](https://user-images.githubusercontent.com/3072734/111894700-2fdd9680-8a50-11eb-9115-27a251cc5b7c.png)
+
 ### Display Metrics on Grafana
 - [http://localhost:3000](http://localhost:3000)
   - Username: `admin`
